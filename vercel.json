@@ -23,15 +23,5 @@
   "env": {
     "MONGODB_URI": "mongodb+srv://360legntkiller:Salman23lol__@cluster0.dohckbr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     "PORT": "5000"
-  },
-  "routes": [
-    {
-      "src": "/auth/register",
-      "dest": "/auth/register.js"
-    },
-    {
-      "src": "/auth/login",
-      "dest": "/auth/login.js"
-    }
-  ]
+  }
 }
