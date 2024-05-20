@@ -23,12 +23,12 @@ const DB_URL = process.env.DB_URL; // Assuming DB_URL is defined in your .env fi
 mongoose
   .connect(DB_URL)
   .then(() => {
-    console.log("Connected to MongoDB");
+   
     const port = process.env.PORT || 6000;
     app.listen(port, () => {
-      console.log(`Server is running on port ${port}`);
+      
     });
   })
   .catch((error) => {
-    console.error("MongoDB connection error:", error);
+    
   });
