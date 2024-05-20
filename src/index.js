@@ -14,6 +14,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/auth", authRouter);
+app.use("/auth", (req,res)=>{
+  res.send("Hello im a Auth APP")
+});
 
 const DB_URL = process.env.DB_URL; // Assuming DB_URL is defined in your .env file
 
