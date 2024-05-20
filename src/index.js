@@ -9,7 +9,7 @@ app.use(cors());
 
 // Middleware to parse JSON data
 app.use(express.json());
-
+app.use(express.static('public'));
 // Middleware to parse URL-encoded data
 app.use(express.urlencoded({ extended: true }));
 
