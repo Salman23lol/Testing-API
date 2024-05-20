@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev":"nodemon src/index.js"
+    "build":"npm install"
+    "start":"nodemon src/index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
